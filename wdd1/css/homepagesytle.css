@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #d35400;
+}
+
+/* Categories */
+.categories {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Featured Section */
+.featured {
+    background: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.collection-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.collection-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.collection-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Flash Sale */
+.flash-sale {
+    text-align: center;
+    background: #ff5a5f;
+    color: white;
+    padding: 50px 0;
+}
+
+.sale-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li a {
+    color: white;
+    font-size: 18px;
+}
+
